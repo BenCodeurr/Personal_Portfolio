@@ -23,35 +23,10 @@
             imJs.smothScroll();
             imJs.smothScroll_Two();
             imJs.stickyAdjust();
-            imJs.testimonialActivation();
             imJs.contactForm();
             imJs.wowActive();
             imJs.awsActivation();
-            imJs.demoActive();
-            imJs.activePopupDemo();
             imJs.onePageNav();
-        },
-
-
-        activePopupDemo: function(e) {
-            $('.popuptab-area li a.demo-dark').on('click', function(e) {
-                $('.demo-modal-area').addClass('dark-version');
-                $('.demo-modal-area').removeClass('white-version');
-            });
-
-            $('.popuptab-area li a.demo-light').on('click', function(e) {
-                $('.demo-modal-area').removeClass('dark-version');
-                $('.demo-modal-area').addClass('white-version');
-            })
-        },
-
-        demoActive: function(e) {
-            $('.rn-right-demo').on('click', function(e) {
-                $('.demo-modal-area').addClass('open');
-            })
-            $('.demo-close-btn').on('click', function(e) {
-                $('.demo-modal-area').removeClass('open');
-            })
         },
 
         contactForm: function() {
@@ -138,24 +113,6 @@
                 cssEase: 'linear',
                 prevArrow: '<button class="slide-arrow prev-arrow"><i class="feather-arrow-left"></i></button>',
                 nextArrow: '<button class="slide-arrow next-arrow"><i class="feather-arrow-right"></i></button>'
-            });
-
-            $('.testimonial-item-one').slick({
-                infinite: true,
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                dots: true,
-                arrows: true,
-                adaptiveHeight: true,
-                cssEase: 'linear',
-                prevArrow: '<button class="slide-arrow prev-arrow"><i class="feather-chevron-left"></i></button>',
-                nextArrow: '<button class="slide-arrow next-arrow"><i class="feather-chevron-right"></i></button>',
-                responsive: [{
-                    breakpoint: 1200,
-                    settings: {
-                        arrows: false,
-                    }
-                }]
             });
 
 
