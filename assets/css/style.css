@@ -243,28 +243,6 @@ h6 a,
     color: inherit;
 }
 
-.bg-color-tertiary h1,
-.bg-color-tertiary h2,
-.bg-color-tertiary h3,
-.bg-color-tertiary h4,
-.bg-color-tertiary h5,
-.bg-color-tertiary h6,
-.bg-color-tertiary .h1,
-.bg-color-tertiary .h2,
-.bg-color-tertiary .h3,
-.bg-color-tertiary .h4,
-.bg-color-tertiary .h5,
-.bg-color-tertiary .h6 {
-    color: #fff;
-}
-
-.bg-color-tertiary p {
-    color: #6c7279;
-}
-
-.bg-color-tertiary a {
-    color: #6c7279;
-}
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     h1,
@@ -346,10 +324,6 @@ p.b1 {
     line-height: var(--line-height-b1);
 }
 
-p.b3 {
-    font-size: var(--font-size-b3);
-    line-height: var(--line-height-b3);
-}
 
 @media only screen and (max-width: 767px) {
     p {
@@ -357,24 +331,6 @@ p.b3 {
         font-size: var(--font-size-b2);
         line-height: var(--line-height-b2);
     }
-}
-
-p.has-large-font-size {
-    line-height: 1.5;
-    font-size: 36px;
-}
-
-p.has-medium-font-size {
-    font-size: 24px;
-    line-height: 36px;
-}
-
-p.has-small-font-size {
-    font-size: 13px;
-}
-
-p.has-very-light-gray-color {
-    color: var(--color-white);
 }
 
 p.has-background {
@@ -391,10 +347,6 @@ p.b2 {
     line-height: var(--line-height-b2);
 }
 
-p.b3 {
-    font-size: var(--font-size-b3);
-    line-height: var(--line-height-b3);
-}
 
 p:last-child {
     margin-bottom: 0;
@@ -410,10 +362,7 @@ p:last-child {
     line-height: var(--line-height-b2);
 }
 
-.b3 {
-    font-size: var(--font-size-b3);
-    line-height: var(--line-height-b3);
-}
+
 
 .b4 {
     font-size: var(--font-size-b4);
